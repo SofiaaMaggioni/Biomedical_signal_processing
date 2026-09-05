@@ -1,0 +1,10 @@
+numpy
+scipy
+pandas
+matplotlib
+wfdb
+scikit-learn
+jupyterlab
+ipykernel
+openpyxl
+tqdm
