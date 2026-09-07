@@ -1,0 +1,2 @@
+record,detected_fqrs,used_fqrs,rejected_edge_fqrs,window_before_ms,window_after_ms,baseline_ms,s6_samples,s6_channels,snr_gain_factor
+a14,124,123,1,200.0,200.0,50.0,801,4,11.090536506409418

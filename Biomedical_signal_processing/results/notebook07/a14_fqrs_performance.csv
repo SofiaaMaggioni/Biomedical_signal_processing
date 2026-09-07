@@ -1,0 +1,2 @@
+record,reference_fqrs,detected_fqrs,true_positives,false_positives,false_negatives,sensitivity,positive_predictive_value,f1_score,mean_abs_error_ms,tolerance_ms
+a14,123,124,111,13,12,0.9024390243902439,0.8951612903225806,0.8987854251012146,6.396396396396397,50.0
