@@ -16,7 +16,7 @@ The project is organized into structured, reproducible modules:
   - Zero-phase high-pass FIR filtering (f_c = 3.0 Hz, 1001 taps) for baseline wander removal without group delay distortion (S2).
   - Power-line interference cancellation (50 Hz and harmonics at 100/150 Hz) (S3).
   - Temporal upsampling to 2000 Hz (S4) to achieve sub-millisecond alignment resolution.
-  - 
+    
 **Maternal ECG Cancellation (S4 -> S5):**
 
   - Spatial PCA decomposition and matched filtering (cross-correlation) for robust mQRS localization.
