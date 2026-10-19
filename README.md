@@ -1,10 +1,6 @@
 # Biomedical_signal_processing
 Biomedical_signal_processing_project 
 
-Grade: 24
-
-AY: 2025-2026
-
 # Non-Invasive Fetal ECG Extraction & Detection
 
 This repository provides a modular, end-to-end signal processing pipeline for the non-invasive extraction and robust detection of the fetal electrocardiogram (**fECG**) from multichannel maternal abdominal recordings.
@@ -23,7 +19,11 @@ The project is organized into structured, reproducible modules:
   - Beat-by-beat adaptive maternal template subtraction using a 10-beat moving window and independent 3-zone scaling (P-wave, QRS, T-wave).
 **Fetal QRS Detection & Benchmarking:**
   - Band-pass energy integration (10–60 Hz), moving window integration (35 ms), and dynamic percentile thresholding with a physiological refractory period (250 ms).
-  - Quantitative validation (Sensitivity, PPV, F1-score) against clinical reference annotations within the standard CinC 2013 tolerance window (50ms).
-**Morphological Averaging & Batch Testing (s6):**
-  - Coherent ensemble averaging of detected fetal complexes for S6 average beat reconstruction (theoretical SNR gain of sqrt).
+  - Quantitative validation (Sensitivity, PPV, F1-score) against clinical reference annotations within the standard CinC 2013 tolerance window (50 ms).
+**Morphological Averaging & Batch Testing (S6):**
+  - Coherent ensemble averaging of detected fetal complexes for S6 average beat reconstruction.
   - Cross-record batch evaluation across multiple Set-A recordings with fixed parameters to test algorithmic robustness and edge cases.
+
+Grade: 24
+
+AY: 2025-2026
