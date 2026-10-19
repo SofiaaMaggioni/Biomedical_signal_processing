@@ -15,7 +15,7 @@ The algorithmic workflow reproduces and builds upon the method proposed by **Mar
 The project is organized into structured, reproducible modules:
 **Data Ingestion (S1):** Automated loading of 4-channel abdominal recordings (1000 Hz, 60 s) and reference annotations (.fqrs) via `wfdb`.
 **Pre-processing (S1 -> S4):**
-  - Zero-phase high-pass FIR filtering (f_c = 3.0\Hz, 1001 taps) for baseline wander removal without group delay distortion (S2).
+  - Zero-phase high-pass FIR filtering (f_c = 3.0 Hz, 1001 taps) for baseline wander removal without group delay distortion (S2).
   - Power-line interference cancellation (50 Hz and harmonics at 100/150 Hz) (S3).
   - Temporal upsampling to 2000 Hz (S4) to achieve sub-millisecond alignment resolution.
 **Maternal ECG Cancellation (S4 -> S5):**
